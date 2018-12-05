@@ -1,0 +1,35 @@
+header {
+    font-size: 26px;
+    padding: 10px;
+    margin:10;
+    color:#ffd2a5;
+    background-color: #8a79af;
+    text-align: center;
+}
+
+body {
+    font-size: 20px;
+    padding: 10px;
+    margin:10;
+}
+
+form{
+    margin: 15px;
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #8a79af;
+
+}
+
+input{
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin:10;
+    align: center;
+}
+

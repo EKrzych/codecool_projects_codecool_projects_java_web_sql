@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Honey and Bees</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="content">
+    <header>
+        <nav>
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li><a href=bees.html>Bees</a></li>
+                <li><a href=honey.html>Honey</a></li>
+                <li><a href=apiary.html>Apiary</a></li>
+                <li><a href=store.html>Store</a></li>
+                <li><a href=contact.html>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <img src="graphics/closeBees.jpg" class="contactPicture" alt="Bees picture"></img>
+        <form onchange="validateIfEmpty()">
+            <div>
+                <label for="firstName">First name:</label>
+                <input type="text" name="firstName" id="firstName" size="40" placeholder="Enter your name"></input><br>
+                <p id="errorMessageFirstName" class="error-hidden">Please provide your name.</p>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" size="40" placeholder="Give your email"><br>
+                <p id="errorMessageEmail" class="error-hidden">Please provide correct email.</p>
+            </div> 
+            <div>
+                <label for="message">Message:</label>
+                <textarea cols="50" rows="8" placeholder="Type here your message" id="message"></textarea><br>
+                <p id="errorMessage" class="error-hidden">Please provide text.</p>
+            </div>
+            <div>
+                <input type="submit" value="SEND" id="submit" disabled="true" onclick="validate()">
+            </div>
+        </form>
+          
+    </section>
+
+    <footer class="clear">
+        <small> &copy; Under the Oaks</small>
+    </footer>
+    <script src="myScript.js"></script>
+</body>
+</html>
