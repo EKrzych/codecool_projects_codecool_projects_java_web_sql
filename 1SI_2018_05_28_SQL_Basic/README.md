@@ -8,7 +8,7 @@ Luckily they managed to design a database, which can be described by the Entity
 
 You'll have to create this database and than write queries to retrieve data from the database.
 
-![application_process_erd.png](/media/application_process_erd.png)
+![picture](/media/application_process_erd.png)
 
 ## Preparation
 
